@@ -10,7 +10,7 @@
 //
 //
 
-  Cypress.on('uncaught:exception', (err, runnable) => {
+Cypress.on('uncaught:exception', (err, runnable) => {
     return false
   }) 
 
